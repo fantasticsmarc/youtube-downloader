@@ -16,6 +16,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+Or execute youtube-downloader.exe without needing python or libraries
 
 ## License
 MIT
