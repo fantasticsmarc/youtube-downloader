@@ -2,7 +2,6 @@
 
 All notable changes to this project will be documented here.
 
-<<<<<<< HEAD
 ## [2.0.0] - 2026-05-19
 
 ### Fixed
@@ -27,10 +26,3 @@ All notable changes to this project will be documented here.
 - Initial professional structure
 - README, requirements, gitignore
 - CONTRIBUTING and CHANGELOG files
-=======
-## [1.0.0] - 2026-04-14
-### Added
-- Initial professional structure
-- README, requirements, gitignore
-- CONTRIBUTING and CHANGELOG files
->>>>>>> cf591f0962659b5534025be46e840db3c7ec0387
