@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- mode: python ; coding: utf-8 -*-
 import os
 
@@ -60,3 +61,8 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
 )
+=======
+# PyInstaller spec for YouTube Downloader
+a=Analysis(['main.py'], hiddenimports=['pytube','customtkinter'])
+exe=EXE(a.pure,a.scripts,name='youtube-downloader',console=False)
+>>>>>>> cf591f0962659b5534025be46e840db3c7ec0387
