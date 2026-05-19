@@ -1,0 +1,15 @@
+
+.build/
+build/
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
