@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented here.
 
+## [2.1.0] - 2026-05-21
+
+### Fixed
+- Unresolved Git merge conflict markers in `main.py`, `requirements.txt`, and `youtube-downloader.spec` that caused syntax errors
+- Restricted or age-gated videos now retry with browser cookies (Edge, Firefox, Chrome) when anonymous download fails
+- Browser cookie read failures (e.g. Chrome open on Windows) skip to the next browser instead of stopping silently
+
+### Added
+- Pre-download availability check before the folder picker opens
+- GUI status messages for videos that cannot be downloaded (blocked, private, region, or network restrictions)
+- Separate GUI hints for browser cookie issues (fully quit browsers and retry)
+- `DownloadFailed` exception to aggregate retry attempts and drive user-facing messages
+
+### Changed
+- Entire UI translated to English (labels, dialogs, status text, and error messages)
+- Chrome moved to last in the cookie retry order to reduce Windows cookie database lock errors
+- Window height increased to `720x520` and status label uses `wraplength=640` for multiline errors
+- Folder picker only appears after the video passes the availability check
+
 ## [2.0.0] - 2026-05-19
 
 ### Fixed
